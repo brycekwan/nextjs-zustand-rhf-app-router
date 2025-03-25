@@ -10,6 +10,7 @@ import {
       defaultOptions: {
         queries: {
           staleTime: 60 * 1000,
+          gcTime: 1000 * 60 * 60 * 24, // 24 hours
         },
         dehydrate: {
           // include pending queries in dehydration
